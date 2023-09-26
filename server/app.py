@@ -77,7 +77,7 @@ def users():
 
     response = make_response(
         users,
-        200
+        100
     )
 
     return response
